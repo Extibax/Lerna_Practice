@@ -1,0 +1,18 @@
+{
+  "name": "lerna_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start:extibax_frontend": "yarn workspace extibax_frontend run start",
+    "start:extibax_backend": "yarn workspace extibax_backend run start"
+  },
+  "workspaces": [
+    "packages/*",
+    "shared/**/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
